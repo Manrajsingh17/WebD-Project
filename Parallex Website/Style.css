@@ -1,0 +1,77 @@
+ *{
+    height: 100%;
+    margin: 0px;
+     padding: 0px;
+font-size: 16px;
+font-family: "lato",sans-serif;
+font-weight: 400;
+line-height: 1.8rem;
+box-sizing: border-box;
+}
+
+.img1{
+    background-attachment: fixed;
+    /* border: 2px solid red; */
+ width: 100%;
+    background-image: url('pexels-photo-268533.jpeg');
+ height:400px ;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.texted{
+position: absolute;
+top: 50%;
+width: 100%;
+text-align: center;
+color: rgb(5, 11, 11);
+font: 27px;
+letter-spacing:8px
+}
+.textbg{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+.section{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 50px 80px ;
+    height: auto;
+}
+
+#section-dark{
+background-color: rgb(144, 152, 152);
+color: rgb(250, 245, 245);
+}
+.img2{
+    background-attachment: fixed;
+    /* border: 2px solid red; */
+    width: 100%;
+       background-image: url('pexels-photo-943899.jpeg');
+    height:400px ;
+       position: relative;
+       background-position: center;
+       background-repeat: no-repeat;
+   
+
+}
+.textbgl{
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    opacity: 8px ;
+  
+}
+.img3{
+    background-attachment: fixed;
+    /* border: 2px solid red; */
+    width: 100%;
+       background-image: url('photo3.jpeg');
+       height:400px ;
+       position: relative;
+       background-position: center;
+       background-repeat: no-repeat;
+   
+}
